@@ -1,6 +1,6 @@
 # Agentic ICU Decision Support - Quick Start
 
-🏥 **Multi-Agent AI System for ICU Decision Support**
+**Multi-Agent AI System for ICU Decision Support**
 
 ## What This Is
 
@@ -27,7 +27,7 @@ After running, check:
 - `./data/patients/` - Generated patient data
 - `./data/final_report.json` - Simulation summary
 
-## 🎮 Commands
+## Commands
 
 ```bash
 # Run 5-minute demo (default)
@@ -46,49 +46,49 @@ python run.py test
 python examples/demo.py
 ```
 
-## 📊 What You'll See
+## What You'll See
 
 ```
-🏥 Starting Agentic ICU Decision Support Demo...
-✅ Generated data for 10 patients
-✅ Initialized 3 agents
-🚀 Starting ICU simulation for 5 minutes...
+1. Starting Agentic ICU Decision Support Demo...
+2. Generated data for 10 patients
+3. Initialized 3 agents
+4. Starting ICU simulation for 5 minutes...
 
-📊 System Status: 23 decisions, 156 messages, 10 patients
-⚠️  High urgency decision: critical_vital for PATIENT_003
-🤖 Decision made by physician for PATIENT_007: clinical_assessment
+System Status: 23 decisions, 156 messages, 10 patients
+High urgency decision: critical_vital for PATIENT_003
+Decision made by physician for PATIENT_007: clinical_assessment
 
-🎉 ICU SIMULATION COMPLETED!
+ICU SIMULATION COMPLETED!
 Duration: 5 minutes
 Decisions Made: 23
 Messages Processed: 156
 Performance: 4.6 decisions/min
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 📁 agentic-icu-fixed/
-├── 🐍 run.py                    # Main entry point
-├── 📋 requirements.txt          # Dependencies
-├── ⚙️  .env                     # Configuration
-├── 🏥 agentic_icu/             # Main framework
-│   ├── 🤖 agent_framework/     # AI agents
-│   ├── 📡 data_layer/          # Data simulation  
-│   ├── 🔄 orchestration/       # System coordination
-│   ├── 🌐 api/                 # REST API
-│   └── ⚙️  config/             # Settings
-├── 📝 examples/demo.py         # Simple demo
-└── 📊 data/                    # Generated data (created on run)
+├──  run.py                    # Main entry point
+├──  requirements.txt          # Dependencies
+├──   .env                     # Configuration
+├──  agentic_icu/             # Main framework
+│   ├──  agent_framework/     # AI agents
+│   ├──  data_layer/          # Data simulation  
+│   ├──  orchestration/       # System coordination
+│   ├──  api/                 # REST API
+│   └──   config/             # Settings
+├──  examples/demo.py         # Simple demo
+└──  data/                    # Generated data (created on run)
 ```
 
-## 🤖 AI Agents
+##  AI Agents
 
-- **👨‍⚕️ Physician Agent**: Makes clinical decisions and diagnoses
-- **👩‍⚕️ Nurse Agent**: Monitors patients and coordinates care
-- **💊 Pharmacist Agent**: Manages medications and checks interactions
+- ** Physician Agent**: Makes clinical decisions and diagnoses
+- ** Nurse Agent**: Monitors patients and coordinates care
+- ** Pharmacist Agent**: Manages medications and checks interactions
 
-## 📈 Simulated Features
+##  Simulated Features
 
 - **Virtual Patients**: Demographics, medical history, conditions
 - **Vital Signs**: Heart rate, blood pressure, oxygen, temperature
@@ -97,7 +97,7 @@ Performance: 4.6 decisions/min
 - **Clinical Alerts**: Automated warnings for critical values
 - **Agent Decisions**: AI recommendations with confidence scores
 
-## 🔧 Configuration
+##  Configuration
 
 Edit `.env` to customize:
 ```
@@ -107,7 +107,7 @@ API_PORT=8000                  # Web API port
 LOG_LEVEL=INFO                 # Logging detail
 ```
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 If you run `python run.py api`:
 ```bash
@@ -127,16 +127,16 @@ curl http://localhost:8000/agents
 curl -X POST http://localhost:8000/simulation/start
 ```
 
-## 💡 Features Demonstrated
+##  Features Demonstrated
 
-- ✅ **Real-time data processing** - Continuous monitoring
-- ✅ **Multi-agent coordination** - Agents work together  
-- ✅ **Clinical decision support** - Evidence-based recommendations
-- ✅ **Alert management** - Automated critical value detection
-- ✅ **Performance monitoring** - System metrics and reporting
-- ✅ **Realistic simulation** - Healthcare scenarios without real hardware
+-  **Real-time data processing** - Continuous monitoring
+-  **Multi-agent coordination** - Agents work together  
+-  **Clinical decision support** - Evidence-based recommendations
+-  **Alert management** - Automated critical value detection
+-  **Performance monitoring** - System metrics and reporting
+-  **Realistic simulation** - Healthcare scenarios without real hardware
 
-## 🔬 Perfect For Research
+##  Perfect For Research
 
 Study these topics:
 - Multi-agent AI systems in healthcare
@@ -145,7 +145,7 @@ Study these topics:
 - AI safety in medical applications  
 - Human-AI collaboration patterns
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 **Import errors**: Make sure you're in project directory and ran `pip install -r requirements.txt`
 
@@ -155,7 +155,7 @@ Study these topics:
 
 **Port conflicts**: Change `API_PORT` in `.env` file
 
-## 🎯 Next Steps
+##  Next Steps
 
 1. **Run the demo** to see the system in action
 2. **Explore generated data** in `./data/patients/`  
@@ -165,6 +165,3 @@ Study these topics:
 
 ---
 
-**This is a complete, working ICU simulation that requires no external hardware or services!**
-
-Everything runs locally with realistic dummy data. Perfect for research and development.
