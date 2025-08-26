@@ -1,0 +1,182 @@
+[
+  {
+    "patient_id": "PATIENT_649ACAD1",
+    "mrn": "MRN294625",
+    "first_name": "Michael",
+    "last_name": "Shepard",
+    "age": 80,
+    "gender": "female",
+    "weight_kg": 84.6,
+    "height_cm": 187,
+    "admission_time": "2025-08-23T22:27:48.009220",
+    "diagnosis": "Stroke",
+    "severity": "critical",
+    "allergies": [],
+    "medical_history": []
+  },
+  {
+    "patient_id": "PATIENT_381C321A",
+    "mrn": "MRN662054",
+    "first_name": "Danielle",
+    "last_name": "Hodge",
+    "age": 82,
+    "gender": "female",
+    "weight_kg": 69.1,
+    "height_cm": 183,
+    "admission_time": "2025-08-23T19:27:48.009310",
+    "diagnosis": "Stroke",
+    "severity": "stable",
+    "allergies": [
+      "Contrast"
+    ],
+    "medical_history": [
+      "COPD"
+    ]
+  },
+  {
+    "patient_id": "PATIENT_3259D43A",
+    "mrn": "MRN107385",
+    "first_name": "Heather",
+    "last_name": "Barrera",
+    "age": 29,
+    "gender": "female",
+    "weight_kg": 116.7,
+    "height_cm": 172,
+    "admission_time": "2025-08-26T06:27:48.009385",
+    "diagnosis": "Sepsis",
+    "severity": "stable",
+    "allergies": [
+      "Contrast"
+    ],
+    "medical_history": [
+      "Hypertension"
+    ]
+  },
+  {
+    "patient_id": "PATIENT_5F4AD4E8",
+    "mrn": "MRN956591",
+    "first_name": "Shaun",
+    "last_name": "Hughes",
+    "age": 55,
+    "gender": "male",
+    "weight_kg": 95.6,
+    "height_cm": 194,
+    "admission_time": "2025-08-24T16:27:48.009458",
+    "diagnosis": "ARDS",
+    "severity": "stable",
+    "allergies": [],
+    "medical_history": []
+  },
+  {
+    "patient_id": "PATIENT_087848D5",
+    "mrn": "MRN420809",
+    "first_name": "Christopher",
+    "last_name": "Stone",
+    "age": 19,
+    "gender": "female",
+    "weight_kg": 57.0,
+    "height_cm": 157,
+    "admission_time": "2025-08-26T13:27:48.009531",
+    "diagnosis": "ARDS",
+    "severity": "stable",
+    "allergies": [],
+    "medical_history": [
+      "Hypertension"
+    ]
+  },
+  {
+    "patient_id": "PATIENT_F5D089BA",
+    "mrn": "MRN342502",
+    "first_name": "Anthony",
+    "last_name": "Whitney",
+    "age": 20,
+    "gender": "male",
+    "weight_kg": 97.8,
+    "height_cm": 170,
+    "admission_time": "2025-08-25T02:27:48.009602",
+    "diagnosis": "Pneumonia",
+    "severity": "stable",
+    "allergies": [
+      "Contrast"
+    ],
+    "medical_history": [
+      "Diabetes",
+      "Hypertension"
+    ]
+  },
+  {
+    "patient_id": "PATIENT_1E22CD0C",
+    "mrn": "MRN615277",
+    "first_name": "Aaron",
+    "last_name": "Obrien",
+    "age": 31,
+    "gender": "male",
+    "weight_kg": 108.1,
+    "height_cm": 173,
+    "admission_time": "2025-08-24T20:27:48.009670",
+    "diagnosis": "Diabetic Ketoacidosis",
+    "severity": "stable",
+    "allergies": [
+      "Contrast"
+    ],
+    "medical_history": [
+      "Diabetes",
+      "Hypertension"
+    ]
+  },
+  {
+    "patient_id": "PATIENT_60FCDFF1",
+    "mrn": "MRN335624",
+    "first_name": "Marcus",
+    "last_name": "Rush",
+    "age": 30,
+    "gender": "female",
+    "weight_kg": 76.6,
+    "height_cm": 187,
+    "admission_time": "2025-08-26T13:27:48.009737",
+    "diagnosis": "ARDS",
+    "severity": "critical",
+    "allergies": [],
+    "medical_history": [
+      "COPD"
+    ]
+  },
+  {
+    "patient_id": "PATIENT_D4DB54C2",
+    "mrn": "MRN489166",
+    "first_name": "Michael",
+    "last_name": "Armstrong",
+    "age": 39,
+    "gender": "male",
+    "weight_kg": 96.7,
+    "height_cm": 153,
+    "admission_time": "2025-08-23T20:27:48.009804",
+    "diagnosis": "Diabetic Ketoacidosis",
+    "severity": "moderate",
+    "allergies": [
+      "Latex"
+    ],
+    "medical_history": [
+      "Hypertension"
+    ]
+  },
+  {
+    "patient_id": "PATIENT_9C46FA16",
+    "mrn": "MRN545352",
+    "first_name": "Audrey",
+    "last_name": "Smith",
+    "age": 56,
+    "gender": "male",
+    "weight_kg": 97.8,
+    "height_cm": 158,
+    "admission_time": "2025-08-24T05:27:48.009871",
+    "diagnosis": "Heart Failure",
+    "severity": "critical",
+    "allergies": [
+      "Latex"
+    ],
+    "medical_history": [
+      "Hypertension"
+    ]
+  }
+]

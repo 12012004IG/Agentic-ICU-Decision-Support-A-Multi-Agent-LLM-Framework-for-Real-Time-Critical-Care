@@ -1,0 +1,9 @@
+{
+  "simulation_completed": "2025-08-26T14:32:48.038841",
+  "duration_minutes": 5,
+  "total_decisions_made": 57,
+  "total_messages_processed": 3645,
+  "patients_monitored": 10,
+  "agents_deployed": 3,
+  "decisions_per_minute": 11.4
+}
