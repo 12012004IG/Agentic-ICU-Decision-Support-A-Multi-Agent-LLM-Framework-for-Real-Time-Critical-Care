@@ -10,7 +10,7 @@ A complete simulation of an ICU with AI agents making clinical decisions:
 - **Real-time monitoring** and clinical alerts
 - **No external dependencies** - runs completely offline
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 ```bash
